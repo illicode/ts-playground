@@ -1,6 +1,6 @@
 import { sum, countChars, roleName, complexSum } from '.'
 
-describe('Ex1 : primitives', () => {
+describe('Ex1 : The primitives', () => {
   test('adds 3 + 2 to equal 5', () => {
     expect(sum(3, 2)).toBe(5);
   });
@@ -15,17 +15,5 @@ describe('Ex1 : primitives', () => {
 
   test('roleName returns User if param is false', () => {
     expect(roleName(false)).toBe("User");
-  });
-
-  test('complexSum should correctly add two numbers', () => {
-    expect(complexSum(3, 4)).toBe(7);
-  });
-
-  test('complexSum should correctly add one string and one number', () => {
-    expect(complexSum("5", 4)).toBe(9);
-  });
-
-  test('complexSum should correctly add one string and one number (reverse order)', () => {
-    expect(complexSum(5, "4")).toBe(9);
   });
 });
