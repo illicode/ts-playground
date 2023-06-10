@@ -21,3 +21,15 @@ EX=1 node check
 ```
 
 It watches the `index.ts` file so you can run it once per exercice and quit with `Ctrl+C` when result is successful
+
+# Dev workflow
+
+When creating an exercice, you just want UnitTests to pass.
+
+Then run the command
+
+```
+EX=x npm run dev
+```
+
+With `x` the exercise number you're working on.

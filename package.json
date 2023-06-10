@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "jest --watch --silent src/ex${EX}",
     "test": "jest --silent src/ex${EX}",
     "lint": "tsc --strict --noEmit --pretty --preserveWatchOutput src/ex${EX}/*"
   },
