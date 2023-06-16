@@ -1,2 +1,8 @@
-export const complexSum = (a, b) => parseInt(a) + parseInt(b)
+/*
+ * Union type, a and b can be number or strings
+ */
+
+export const complexSum = (a, b) => {
+    // Todo
+}
 

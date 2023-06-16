@@ -1,3 +1,8 @@
+/*
+ * Write correct object type for person
+ * Remember age is not mandatory
+ */
+
 export const getInfos = (person) => {
     let displayAge;
     if(!person.age) {
