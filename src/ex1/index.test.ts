@@ -1,4 +1,4 @@
-import { sum, countChars, roleName, complexSum } from '.'
+import { sum, countChars, roleName } from '.'
 
 describe('Ex1 : The primitives', () => {
   test('adds 3 + 2 to equal 5', () => {
